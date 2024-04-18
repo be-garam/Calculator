@@ -1,7 +1,7 @@
 <script>
-  import { Input, Label, Helper, Button, A, Card} from 'flowbite-svelte';
+    import { Input, Label, Helper, Button, A, Card} from 'flowbite-svelte';
 </script>
-
+  
 <div class="container mx-auto flex items-center justify-center h-screen">
     <Card>
         <h1>Calculator</h1>
