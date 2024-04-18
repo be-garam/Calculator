@@ -17,10 +17,10 @@
                 </div>
             </div>
             <div class="grid gap-6 mb-6 md:grid-cols-4">
-                <Button type="add" color="red" href="/result"> + </Button>
-                <Button type="subtraction" color="blue" href="/result"> - </Button>
-                <Button type="multiplication" color="yellow" href="/result"> * </Button>
-                <Button type="division" color="green" href="/result"> / </Button>
+                <Button type="add" color="red" href="/add"> + </Button>
+                <Button type="subtraction" color="blue" href="/subtraction"> - </Button>
+                <Button type="multiplication" color="yellow" href="/multiplication"> * </Button>
+                <Button type="division" color="green" href="/division"> / </Button>
             </div>
         </form>
     </Card>
