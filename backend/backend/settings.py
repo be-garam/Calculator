@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-i67j7@p!&=@cv0zro56yryah=zbea_df+)i))1x^0o!hh@b31p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['10.125.208.187']
+ALLOWED_HOSTS = ['10.125.208.188','127.0.0.1'] #bce01
+# ALLOWED_HOSTS = ['10.125.208.187' '127.0.0.1'] #bce02
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders', # 추가
 ]
 
 MIDDLEWARE = [
@@ -47,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'backend.urls'
@@ -105,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ko-kr'
 
-TIME_ZONE = 'UTF-8'
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
