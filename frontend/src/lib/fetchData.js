@@ -1,4 +1,4 @@
-const site_root = "http://127.0.0.1:12000/";
+const site_root = "http://127.0.0.1:8000/";
 
 export async function fetchData(uri, method = 'GET', data = {}) {
     let url = new URL(site_root + uri);
